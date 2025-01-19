@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Sharepoint PDF Downloader
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/bullytard/Sharepoint-PDF-Downloader
 // @version      2025-01-18
 // @description  Two Click to get the job done
-// @author       You
+// @author       bullytard
 // @match        *://*.sharepoint.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=sharepoint.com
+// @downloadURL  https://raw.githubusercontent.com/bullytard/Sharepoint-PDF-Downloader/refs/heads/main/Sharepoint%20PDF%20Downloader.js
 // @grant        GM_download
 // ==/UserScript==
 
