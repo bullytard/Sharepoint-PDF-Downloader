@@ -13,7 +13,7 @@ Implemented with the idea given by this user: https://sharepoint.stackexchange.c
   Firefox addons: https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
   
 2. Install the script
-GitHub: 
+GitHub: https://raw.githubusercontent.com/bullytard/Sharepoint-PDF-Downloader/refs/heads/main/Sharepoint-PDF-Downloader.js
 
 
 
