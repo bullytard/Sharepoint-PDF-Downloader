@@ -6,7 +6,6 @@
 // @author       bullytard
 // @match        *://*.sharepoint.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=sharepoint.com
-// @downloadURL  https://raw.githubusercontent.com/bullytard/Sharepoint-PDF-Downloader/refs/heads/main/Sharepoint%20PDF%20Downloader.js
 // @grant        GM_download
 // ==/UserScript==
 
