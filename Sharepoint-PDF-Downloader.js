@@ -1,11 +1,10 @@
 // ==UserScript==
-// @name         Sharepoint PDF Downloader
+// @name         Sharepoint-PDF-Downloader
 // @namespace    https://github.com/bullytard/Sharepoint-PDF-Downloader
-// @version      2025-01-18
-// @description  Two Click to get the job done
+// @version      1.0.0
+// @description  Two Clicks to get the job done
 // @author       bullytard
 // @match        *://*.sharepoint.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=sharepoint.com
 // @grant        GM_download
 // ==/UserScript==
 
