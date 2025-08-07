@@ -13,24 +13,7 @@
 
     // Your code here...
     function runcopy(){
-        let copymaterial;
-
-        //get file name, one way
-        try{
-            let title = document.getElementsByClassName("OneUpNonInteractiveCommandNewDesign_156f96ef");
-            let b= document.getElementById(title[0].attributes[1].nodeValue);
-            copymaterial = b.children[1].innerHTML;
-        }
-        catch{}
-
-        // get file name, another way
-        try{
-            let title = document.getElementsByClassName("root_72829470");
-            copymaterial = title[0].ariaLabel;
-        }
-        catch{}
-
-
+        let copymaterial = document.getElementsByClassName("pdfViewer_526606d6")[0].ariaLabel.toString() ;;
 
         let linknew = g_listData.ListSchema[".mediaBaseUrl"] + "/transform/passthrough?provider=spo&inputFormat=pdf&cs=" +
             g_listData.ListSchema[".callerStack"] +
@@ -43,6 +26,7 @@
         GM_download({
             url: linknew,
             name: copymaterial, // New name for the downloaded file
+            saveAs: false,
             onload: function() {
                 console.log('Download started!');
             },
@@ -50,14 +34,6 @@
                 console.log('Download failed.');
             }
         });
-
-
-
-
-
-
-
-
     }
 
     // Create the button
